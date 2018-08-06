@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="loggingSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="$url:param" name="reqParam" scope="default" type="STRING"/>
+    <log>
+        <property name="===========testProperty" value="This is a property"/>
+        <property expression="$ctx:reqParam" name="******************testProperty"/>
+    </log>
+</sequence>

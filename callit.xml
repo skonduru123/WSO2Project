@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/sample" name="callit" xmlns="http://ws.apache.org/ns/synapse">
+    <resource inSequence="loggingSeq" methods="GET" protocol="http" url-mapping="/log">
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
