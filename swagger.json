@@ -1,0 +1,1 @@
+{"swagger":"2.0","paths":{"/log":{"get":{"responses":{"200":{"description":""}},"parameters":[{"name":"param","in":"query","required":true,"type":"string"}],"x-auth-type":"Application & Application User","x-throttling-tier":"Unlimited"}}},"info":{"title":"demoApi","version":"1.0.0"}}
